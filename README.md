@@ -31,4 +31,4 @@ npm run start
 
 # Authors
 
-- [Grzegorz Kubiszyn](https://github.com/grygork)
+- [Grzegorz Kubiszyn](https://github.com/grygork) ([Kodefix](https://kodefix.pl/?utm_source=express-js-nuxt-3-wrapper&utm_medium=github&utm_campaign=social))
