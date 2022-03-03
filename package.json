@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node src/app.mjs"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

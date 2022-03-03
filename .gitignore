@@ -1,0 +1,5 @@
+node_modules
+package-lock.json
+src/.output/**/*
+!src/.output/.gitkeep
+!src/.output/readme.md
