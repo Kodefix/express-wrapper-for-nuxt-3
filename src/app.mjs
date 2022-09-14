@@ -1,7 +1,7 @@
 import express from 'express';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { handle } from './.output/server/index.mjs';
+import { handler } from './.output/server/index.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -15,5 +15,5 @@ app.use(
     })
 );
 app.use(express.static(__dirname + '/.output/public'));
-app.use(handle);
+app.use(handler);
 app.listen(9001);
